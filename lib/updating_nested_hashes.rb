@@ -54,16 +54,13 @@ def add_characters
       }
    }
 
-   # Write code below that does the following programmatically:
-   #
-   # - Add an additional :additional_characters key to epic_tragedy and assign it an array as its value
-   # - Add two hashes to this array, both with a :name key.
-   #   - The first hash should have the :name key set to "Prince Escalus" 
-   #   - The second hash should have the :name key set to "Apothecary" 
-   # Code your solution here:
+epic_tragedy[:additional_characters] = []
 
+prince = {name: "Prince Escalus"}
+apothecary = {name: "Apothecary"}
 
-
+epic_tragedy[:additional_characters] << prince
+epic_tragedy[:additional_characters] << apothecary
 
 
 
